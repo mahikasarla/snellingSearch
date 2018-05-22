@@ -1,0 +1,26 @@
+.gradle
+build/
+classes/
+out/
+schemas/*.xsd
+*.class
+
+.DS_Store
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# ignore Gradle wrapper jar file
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+!.idea
+.idea/*
+!.idea/runConfigurations
+*.iml
