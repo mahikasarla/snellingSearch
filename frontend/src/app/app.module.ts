@@ -6,17 +6,19 @@ import { CurrentTimeComponent } from './current-time/current-time.component';
 import {AppRoutingModule, routes} from './/app-routing.module';
 import {RouterModule} from "@angular/router";
 import {HttpClientModule} from "@angular/common/http";
+import { LoginComponent } from './twitter/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CurrentTimeComponent
+    CurrentTimeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes,{ enableTracing: true })
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
